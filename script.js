@@ -57,7 +57,7 @@ function onDeleteTodo(todoId) {
           }
       }
       );
-    todoList.splice(deleteElementIndex);
+    todoList.splice(deleteElementIndex, 1);
 }
  
 function onTodoStatusChange(checkboxId, labelId) {
